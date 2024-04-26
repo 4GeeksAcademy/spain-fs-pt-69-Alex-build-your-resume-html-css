@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.top{
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+}
+
+.top > h1{
+    padding: 0;
+    margin: 0;
+    padding-left: 0.2em;
+}
+
+.top > p{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 15px;    
+}
+.experience{
+    width: 70%;
+    padding-right: 15px;
+}
+.experience > h2 {
+    border-bottom: 2px dodgerblue solid ;
+}
+.experience > h3 {
+    margin: 0px;
+    color: grey; 
+}
+.experience > p{
+    margin-top:0px;
+    margin-bottom: 15px;
+}
+
+.experience p{
+    color: grey;
+}
+
+.info{
+    width: 30%;
+    background-color: gainsboro;
+    padding-right: 15px;
+}
+.info h2{
+    padding-left: 5px;
+    border-bottom: 2px dodgerblue solid;
+    margin-bottom: 5px;
+}
+.left{
+    padding-left: 5px;
+}
+.left p, .left div{
+    padding-left: 15px;
+}
+ul{
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+ul li{
+    padding-bottom:2px;
+    color: dimgray;
+}
+
+li > i{
+    color: dodgerblue;
+}
+
+h4{
+    padding-left: 10px;
+}
+.experience, .info{
+    color: dodgerblue;
+}
+
+.skill{
+    margin: 5px;
+}
+.education{
+    color: dimgrey;
+}
